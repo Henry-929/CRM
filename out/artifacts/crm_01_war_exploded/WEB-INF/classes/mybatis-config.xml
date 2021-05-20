@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+
+    <typeAliases>
+        <package name="com.ssm.settings.pojo"/>
+        <package name="com.ssm.workbench.pojo"/>
+    </typeAliases>
+
+    <mappers>
+        <mapper class="com.ssm.settings.dao.UserMapper"/>
+        <mapper class="com.ssm.settings.dao.DicTypeDao"/>
+        <mapper class="com.ssm.settings.dao.DicValueDao"/>
+        <mapper class="com.ssm.workbench.dao.ActivityDao"/>
+        <mapper class="com.ssm.workbench.dao.ActivityRemarkDao"/>
+        <mapper class="com.ssm.workbench.dao.ClueActivityRelationDao"/>
+        <mapper class="com.ssm.workbench.dao.ClueDao"/>
+        <mapper class="com.ssm.workbench.dao.ClueRemarkDao"/>
+        <mapper class="com.ssm.workbench.dao.ContactsActivityRelationDao"/>
+        <mapper class="com.ssm.workbench.dao.ContactsDao"/>
+        <mapper class="com.ssm.workbench.dao.ContactsRemarkDao"/>
+        <mapper class="com.ssm.workbench.dao.CustomerDao"/>
+        <mapper class="com.ssm.workbench.dao.CustomerRemarkDao"/>
+        <mapper class="com.ssm.workbench.dao.TranDao"/>
+        <mapper class="com.ssm.workbench.dao.TranHistoryDao"/>
+    </mappers>
+</configuration>
